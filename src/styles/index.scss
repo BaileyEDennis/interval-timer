@@ -1,0 +1,19 @@
+@import 'variables';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  background-color: $favColor;
+}
+
+.navbar, .navbar-brand {
+  background-color: lightgrey !important;
+  color: white !important;
+  font-size: 1.5rem;
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+  }
+}
